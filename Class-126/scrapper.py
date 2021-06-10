@@ -20,7 +20,7 @@ def Scrape():
             temp_list = []
             for index,li_tag in enumerate(li_tag):
                 if index == 0:
-                    temp_list.append(li_tag.find_all("a")[0].contents[0])
+                    temp_list.append(li_tag.find_all("a")[0].contents[0]
                 else:
                     try:
                        temp_list.append(li_tag.contents[0])
